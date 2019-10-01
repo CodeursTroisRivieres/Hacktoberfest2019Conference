@@ -1,33 +1,66 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+  <title>Hacktoberfest à Trois-Rivières</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/monokai.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+      <div class="slides">
+        <section data-background-image="images/banner.png"></section>
+
+        <section data-background-image="images/background.png"
+                 data-markdown="slides/firstContribution.md"></section>
+
+        <section data-background-image="images/background.png"
+                 data-markdown="slides/contributions2019.md"></section>
+
+        <section data-background-image="images/background.png">
+          <h3>Pourquoi?</h3>
+          <ul>
+            <li class="fragment fade-in-then-semi-out">Redonner à la communauté</li>
+            <li class="fragment fade-in-then-semi-out">Librairies qu'on utilise</li>
+            <li class="fragment fade-in-then-semi-out">Certains projets ont peu de ressources</li>
+            <li class="fragment fade-in-then-semi-out">Fierté</li>
+          </ul>
+        </section>
+
+        <section data-background-image="images/background.png">
+          <h3>N'importe qui peut contribuer</h3>
+        </section>
+
+        <section data-background-image="images/background.png">
+          <h3>Façons de contribuer</h3>
+          <ul>
+            <li class="fragment fade-in-then-semi-out">Code</li>
+            <li class="fragment fade-in-then-semi-out">Bug report</li>
+            <li class="fragment fade-in-then-semi-out">Code review</li>
+            <li class="fragment fade-in-then-semi-out">Documentation</li>
+          </ul>
+        </section>
+
+        <section data-background-image="images/background.png"></section>
+      </div>
 		</div>
 
 		<script src="js/reveal.js"></script>
