@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\reveal.js"
+    "\\reveal.js",
+    "\\reveal.js\\images",
+    "\\reveal.js\\slides"
   ],
-  "SelectedNode": "\\reveal.js\\images",
+  "SelectedNode": "\\reveal.js\\slides\\firstContribution.md",
   "PreviewInSolutionExplorer": false
 }

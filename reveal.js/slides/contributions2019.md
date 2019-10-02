@@ -1,4 +1,4 @@
-### Contributions 2019
+## Contributions 2019
 
 <html>
   <div>
