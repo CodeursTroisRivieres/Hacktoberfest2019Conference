@@ -1,3 +1,3 @@
 ## Trouver un projet
 
-### https://hacktoberfest.digitalocean.com/
+### [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com/)
